@@ -234,6 +234,7 @@ public final class DeviceUtils {
     /**
      * 重启到bootloader
      * <p>需要root权限</p>
+     
      */
     public static void reboot2Bootloader() {
         ShellUtils.execCmd("reboot bootloader", true);
